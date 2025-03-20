@@ -1,25 +1,33 @@
 import os
 
-# Define the repository root directory
-repo_root = "."
+# Paths
+COURSES_DIR = "Courses"
+MAIN_README = "README.md"
 
-# Create or overwrite the main README.md file
-with open("README.md", "w") as main_readme:
-    main_readme.write("#  The Learning Lab\n\n")
-    main_readme.write("## List of Courses\n\n")
+def generate_course_links():
+    """Generate a list of course links."""
+    course_links = []
+    for course_name in sorted(os.listdir(COURSES_DIR)):
+        course_path = os.path.join(COURSES_DIR, course_name)
+        if os.path.isdir(course_path):
+            readme_path = os.path.join(course_path, "README.md")
+            if os.path.exists(readme_path):
+                course_links.append(f"- [{course_name}]({readme_path})")
+    return course_links
 
-    # Traverse the repository to find course folders
-    for root, dirs, files in os.walk(repo_root):
-        # Skip the root directory and hidden folders (like .git)
-        if root == repo_root or root.startswith("."):
-            continue
+def update_main_readme(course_links):
+    """Update the main README.md file with the list of course links."""
+    with open(MAIN_README, "w") as file:
+        file.write("# Course Repository\n\n")
+        file.write("Welcome to my course repository! Below is a list of all the courses I am studying:\n\n")
+        file.write("\n".join(course_links))
+        file.write("\n")
 
-        # Extract the course folder name
-        course_name = os.path.basename(root)
-
-        # Check if the folder contains a README.md file
-        if "README.md" in files:
-            # Write a link to the course README.md file
-            main_readme.write(f"- [{course_name}]({os.path.join(root, 'README.md')})\n")
-
-print("README.md updated successfully!")
+if __name__ == "__main__":
+    # Generate course links
+    course_links = generate_course_links()
+    
+    # Update the main README.md
+    update_main_readme(course_links)
+    
+    print("README.md updated successfully!")
