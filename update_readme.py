@@ -13,7 +13,8 @@ def generate_course_links():
             # Look for .md files in the course directory
             for file_name in os.listdir(course_path):
                 if file_name.endswith(".md"):
-                    file_path = os.path.join(course_path, file_name)
+                    # Use forward slashes for GitHub compatibility
+                    file_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
                     # Use the course name as the link text
                     course_links.append(f"- [{course_name}]({file_path})")
     return course_links
