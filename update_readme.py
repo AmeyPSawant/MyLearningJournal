@@ -5,7 +5,7 @@ COURSES_DIR = "Courses"
 MAIN_README = "README.md"
 
 def generate_course_links():
-    """Generate a list of course links."""
+    """Generate a list of course links with relative URLs."""
     course_links = []
     for course_name in sorted(os.listdir(COURSES_DIR)):
         course_path = os.path.join(COURSES_DIR, course_name)
@@ -13,10 +13,12 @@ def generate_course_links():
             # Look for .md files in the course directory
             for file_name in os.listdir(course_path):
                 if file_name.endswith(".md"):
-                    # Use forward slashes for GitHub compatibility
-                    file_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
+                    # Generate the relative URL for the file
+                    relative_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
+                    # Ensure the path starts with ./
+                    relative_url = f"./{relative_path}"
                     # Use the course name as the link text
-                    course_links.append(f"- [{course_name}]({file_path})")
+                    course_links.append(f"- [{course_name}]({relative_url})")
     return course_links
 
 def update_main_readme(course_links):
