@@ -1,0 +1,6 @@
+# Introduction to Responsible AI
+- **Responsible AI Practices:** Responsible AI involves ensuring transparency, fairness, accountability, and privacy in AI systems. Organizations, including Google, develop their own AI principles to guide ethical decision-making throughout the AI lifecycle, from design to deployment, to avoid bias, harm, or unintended consequences.
+
+- **Human-Centric AI Development:** AI systems are shaped by human decisions and values at every stage, from data collection to deployment. Responsible AI requires continuous evaluation to ensure ethical considerations are prioritized, building trust and ensuring AI benefits society while minimizing risks.
+
+- **Google’s AI Principles:** Google’s seven AI principles focus on social benefit, avoiding bias, safety, accountability, privacy, scientific excellence, and responsible use. These principles guide product development and business decisions, ensuring AI aligns with ethical standards and avoids harmful applications like surveillance or weapons.

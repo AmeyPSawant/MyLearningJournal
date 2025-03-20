@@ -1,0 +1,6 @@
+# Introduction to Generative AI
+- **Generative AI Definition and Functionality** Generative AI is a subset of artificial intelligence that creates new content—such as text, images, audio, and video—by learning patterns from existing data. It uses models like neural networks and transformers to generate outputs based on input prompts, distinguishing it from discriminative models that classify or predict data.
+
+- **Types of Generative AI Models** Generative AI encompasses various model types, including text-to-text, text-to-image, text-to-video, and text-to-task models. These models can perform tasks like language translation, image generation, video creation, and executing specific actions based on textual input.
+
+- **Applications and Tools** Generative AI has broad applications across industries, from healthcare to customer service. Tools like Google’s Vertex AI Studio and Gemini enable developers to build, fine-tune, and deploy generative AI models, even with minimal coding experience, facilitating tasks like code generation, sentiment analysis, and personalized customer interactions.
