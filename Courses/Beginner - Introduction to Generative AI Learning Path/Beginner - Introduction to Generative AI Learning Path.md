@@ -26,7 +26,8 @@
 
 ## Prompt Design in Vertex AI
 <ul>
-<li>Generative AI with Vertex AI: Prompt Design
+<li>
+Generative AI with Vertex AI: Prompt Design
 In this lab, I learned prompt engineering best practices using Google’s Generative AI SDK. Key steps included setting up a Vertex AI Workbench notebook, applying concise and specific prompts, reducing output variability with system instructions, and improving response quality by including examples. I also explored text generation use cases like ideation, question answering, and classification, while following guidelines to minimize hallucinations and ensure task-specific outputs. This hands-on experience highlighted effective strategies for leveraging large language models (LLMs) in real-world applications.
 
 <li> Get Started with Vertex AI Studio

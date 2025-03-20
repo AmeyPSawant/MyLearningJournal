@@ -28,8 +28,8 @@ jobs:
           # pip install -r requirements.txt
 
       # Run the Python script
-      - name: Run update_readme.py
-        run: python update_readme.py
+      - name: Run generate_index.py
+        run: python generate_index.py
 
       # Commit and push changes (if the script modifies files)
       - name: Commit and push changes
