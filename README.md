@@ -1,4 +1,5 @@
-#  The Learning Lab
+# My Learning Journal
 
-## List of Courses
+Welcome to my course repository! Below is a list of all the courses I am studying:
+
 
