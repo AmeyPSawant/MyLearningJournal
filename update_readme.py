@@ -1,4 +1,5 @@
 import os
+from urllib.parse import quote
 
 # Paths
 COURSES_DIR = "Courses"
@@ -15,8 +16,10 @@ def generate_course_links():
                 if file_name.endswith(".md"):
                     # Generate the relative URL for the file
                     relative_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
+                    # URL-encode the path
+                    encoded_path = quote(relative_path)
                     # Ensure the path starts with ./
-                    relative_url = f"./{relative_path}"
+                    relative_url = f"./{encoded_path}"
                     # Use the course name as the link text
                     course_links.append(f"- [{course_name}]({relative_url})")
     return course_links
