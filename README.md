@@ -2,6 +2,7 @@
 
 Welcome to my course repository! Below is a list of all the courses I am studying:
 
+- [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents/Introduction%20to%20AI%20Agents.md)
 - [Introduction to Generative AI](./Courses/Introduction%20to%20Generative%20AI/Introduction%20to%20Generative%20AI.md)
 - [Introduction to Large Language Models](./Courses/Introduction%20to%20Large%20Language%20Models/Introduction%20to%20Large%20Language%20Models.md)
 - [Introduction to Responsible AI](./Courses/Introduction%20to%20Responsible%20AI/Introduction%20to%20Responsible%20AI.md)
