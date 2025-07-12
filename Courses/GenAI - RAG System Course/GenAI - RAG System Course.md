@@ -2,8 +2,6 @@
 Course Link - https://youtu.be/IRrhpAXib-Y
 
 ## NLP
-To help computers understand text -  
-
 **Text Preprocessing**  
 Text processing consits of multiple ways such as lowercasing, removing stopwords, stemming and lemmatization.
 
@@ -16,3 +14,22 @@ Two types - Word Tokenization and Sentence Tokenization.
 Turns words into vectors (numerical data for analysis).  
 Similar ot what a encoder does (One Hot Encoding).
 
+ ## Attention Mechanism  
+ **Why?**  
+ Whwn models process the vectors they struggle t odecide what is most important context of the sentence.  
+
+ **What?**  
+ It's a process that helps computers decide what is the important context in the sentence.  
+
+ **How?**  
+ It assigns importance to words in the sentence.  
+ It then calculates importance scores.  
+
+ ## Transformers
+ **Why?**  
+ Normal text processing the computers forgot the relation between the words as they kept on processing new words. So instead of processing 
+
+ **What?**
+It helps in understanding and relating an entire sentence rather than words even if the words are far apart.
+
+**How?**
