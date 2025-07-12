@@ -1,4 +1,4 @@
-## Compute in the cloud
+# Compute in the cloud
 EC2 are Virtaul Machines which share underlying physical host machine.
 Multitenancy: Sharing underlying hardware b/w virtual machines.
 
