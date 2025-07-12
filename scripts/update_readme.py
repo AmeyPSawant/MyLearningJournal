@@ -16,8 +16,14 @@ def generate_course_links():
             md_files = [f for f in os.listdir(course_path) if f.endswith(".md")]
             
             if md_files:
-                # Add the course name as main list item
-                course_links.append(f"* {course_name}")
+                # Generate the relative URL for the course directory
+                course_dir_path = os.path.join(COURSES_DIR, course_name).replace("\\", "/")
+                # URL-encode the directory path
+                encoded_dir_path = quote(course_dir_path)
+                # Ensure the path starts with ./
+                course_dir_url = f"./{encoded_dir_path}"
+                # Add the course name as main list item with link to directory
+                course_links.append(f"* [{course_name}]({course_dir_url})")
                 
                 # Add each markdown file as a sub-item
                 for file_name in sorted(md_files):
