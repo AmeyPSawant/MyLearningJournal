@@ -2,10 +2,21 @@
 
 Welcome to my course repository! Below is a list of all the courses I am studying:
 
-- [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents/Introduction%20to%20AI%20Agents.md)
-- [Introduction to Generative AI](./Courses/Introduction%20to%20Generative%20AI/Introduction%20to%20Generative%20AI.md)
-- [Introduction to Large Language Models](./Courses/Introduction%20to%20Large%20Language%20Models/Introduction%20to%20Large%20Language%20Models.md)
-- [Introduction to Responsible AI](./Courses/Introduction%20to%20Responsible%20AI/Introduction%20to%20Responsible%20AI.md)
-- [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
-- [Prompt Design in Vertex AI](./Courses/Prompt%20Design%20in%20Vertex%20AI/Prompt%20Design%20in%20Vertex%20AI.md)
-- [Responsible AI - Applying AI Principles with Google Cloud](./Courses/Responsible%20AI%20-%20Applying%20AI%20Principles%20with%20Google%20Cloud/Responsible%20AI%20-%20Applying%20AI%20Principles%20with%20Google%20Cloud.md)
+* AWS Cloud Practitioner Essentials
+   * [Module1 - Introduction to the cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module1%20-%20Introduction%20to%20the%20cloud.md)
+* GenAI - RAG System Course
+   * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course/GenAI%20-%20RAG%20System%20Course.md)
+* Introduction to AI Agents
+   * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents/Introduction%20to%20AI%20Agents.md)
+* Introduction to Generative AI
+   * [Introduction to Generative AI](./Courses/Introduction%20to%20Generative%20AI/Introduction%20to%20Generative%20AI.md)
+* Introduction to Large Language Models
+   * [Introduction to Large Language Models](./Courses/Introduction%20to%20Large%20Language%20Models/Introduction%20to%20Large%20Language%20Models.md)
+* Introduction to Responsible AI
+   * [Introduction to Responsible AI](./Courses/Introduction%20to%20Responsible%20AI/Introduction%20to%20Responsible%20AI.md)
+* Model Context Protocol (MCP)
+   * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
+* Prompt Design in Vertex AI
+   * [Prompt Design in Vertex AI](./Courses/Prompt%20Design%20in%20Vertex%20AI/Prompt%20Design%20in%20Vertex%20AI.md)
+* Responsible AI - Applying AI Principles with Google Cloud
+   * [Responsible AI - Applying AI Principles with Google Cloud](./Courses/Responsible%20AI%20-%20Applying%20AI%20Principles%20with%20Google%20Cloud/Responsible%20AI%20-%20Applying%20AI%20Principles%20with%20Google%20Cloud.md)
