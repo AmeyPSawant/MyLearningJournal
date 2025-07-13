@@ -3,10 +3,11 @@
 Welcome to my course repository! Below is a list of all the courses I am studying:
 
 * [AWS Cloud Practitioner Essentials](./Courses/AWS%20Cloud%20Practitioner%20Essentials)
-   * [Module1 - Introduction to the cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module1%20-%20Introduction%20to%20the%20cloud.md)
-   * [Module2 - Compute in the Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module2%20-%20Compute%20in%20the%20Cloud.md)
-   * [Module3 - Exploring Compute Services](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module3%20-%20Exploring%20Compute%20Services.md)
-   * [Module4 - Going Global](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module4%20-%20Going%20Global.md)
+   * [Module 1 - Introduction to the cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%201%20-%20Introduction%20to%20the%20cloud.md)
+   * [Module 2 - Compute in the Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%202%20-%20Compute%20in%20the%20Cloud.md)
+   * [Module 3 - Exploring Compute Services](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%203%20-%20Exploring%20Compute%20Services.md)
+   * [Module 4 - Going Global](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%204%20-%20Going%20Global.md)
+   * [Modulel 5 - Networking](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Modulel%205%20-%20Networking.md)
 * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course)
    * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course/GenAI%20-%20RAG%20System%20Course.md)
 * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents)
