@@ -11,6 +11,7 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Module 6 - Storage](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%206%20-%20Storage.md)
    * [Module 7 - Databases](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%207%20-%20Databases.md)
    * [Module 8 - AI ML and Data Analytics](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%208%20-%20AI%20ML%20and%20Data%20Analytics.md)
+   * [Module 9 - Security](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%209%20-%20Security.md)
 * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course)
    * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course/GenAI%20-%20RAG%20System%20Course.md)
 * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents)
