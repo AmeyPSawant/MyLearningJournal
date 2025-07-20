@@ -4,6 +4,7 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
 
 * [AWS Cloud Practitioner Essentials](./Courses/AWS%20Cloud%20Practitioner%20Essentials)
    * [Module 1 - Introduction to the cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%201%20-%20Introduction%20to%20the%20cloud.md)
+   * [Module 10 - Monitoring, Compliance, and Governance in the AWS Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2010%20-%20Monitoring%2C%20Compliance%2C%20and%20Governance%20in%20the%20AWS%20Cloud.md)
    * [Module 2 - Compute in the Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%202%20-%20Compute%20in%20the%20Cloud.md)
    * [Module 3 - Exploring Compute Services](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%203%20-%20Exploring%20Compute%20Services.md)
    * [Module 4 - Going Global](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%204%20-%20Going%20Global.md)
