@@ -12,10 +12,10 @@ def generate_course_links():
     for course_name in sorted(os.listdir(COURSES_DIR)):
         course_path = os.path.join(COURSES_DIR, course_name)
         if os.path.isdir(course_path):
-            # Get all .md files in the course directory
-            md_files = [f for f in os.listdir(course_path) if f.endswith(".md")]
+            # Get all .md and .txt files in the course directory
+            files = [f for f in os.listdir(course_path) if f.endswith((".md", ".txt"))]
             
-            if md_files:
+            if files:
                 # Generate the relative URL for the course directory
                 course_dir_path = os.path.join(COURSES_DIR, course_name).replace("\\", "/")
                 # URL-encode the directory path
@@ -25,17 +25,37 @@ def generate_course_links():
                 # Add the course name as main list item with link to directory
                 course_links.append(f"* [{course_name}]({course_dir_url})")
                 
-                # Add each markdown file as a sub-item
-                for file_name in sorted(md_files):
-                    # Generate the relative URL for the file
-                    relative_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
-                    # URL-encode the path
-                    encoded_path = quote(relative_path)
-                    # Ensure the path starts with ./
-                    relative_url = f"./{encoded_path}"
-                    # Use the file name (without .md extension) as the link text
-                    file_display_name = file_name.replace(".md", "")
-                    course_links.append(f"   * [{file_display_name}]({relative_url})")
+                # Add each file as a sub-item
+                for file_name in sorted(files):
+                    file_path = os.path.join(course_path, file_name)
+                    
+                    if file_name.endswith(".md"):
+                        # For .md files, link directly to the file
+                        relative_path = os.path.join(COURSES_DIR, course_name, file_name).replace("\\", "/")
+                        encoded_path = quote(relative_path)
+                        relative_url = f"./{encoded_path}"
+                        file_display_name = file_name.replace(".md", "")
+                        course_links.append(f"   * [{file_display_name}]({relative_url})")
+                    
+                    elif file_name.endswith(".txt"):
+                        # For .txt files, read the content and use it as a link
+                        try:
+                            with open(file_path, "r", encoding="utf-8") as txt_file:
+                                content = txt_file.read().strip()
+                                
+                            if content:
+                                # Use the content as the link URL
+                                file_display_name = file_name.replace(".txt", "")
+                                course_links.append(f"   * [{file_display_name}]({content})")
+                            else:
+                                # If file is empty, just show the filename without a link
+                                file_display_name = file_name.replace(".txt", "")
+                                course_links.append(f"   * {file_display_name} (empty file)")
+                                
+                        except Exception as e:
+                            # If there's an error reading the file, show an error message
+                            file_display_name = file_name.replace(".txt", "")
+                            course_links.append(f"   * {file_display_name} (error reading file: {e})")
     
     return course_links
 
