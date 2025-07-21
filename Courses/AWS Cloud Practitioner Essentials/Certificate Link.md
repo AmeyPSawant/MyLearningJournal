@@ -1,1 +1,1 @@
-https://github.com/AmeyPSawant/Certificates/raw/main/AWS%20Cloud%20Practitioner%20Essentials/AWS%20Cloud%20Practitioner%20Essentials.pdf
+<embed src="https://github.com/AmeyPSawant/Certificates/raw/main/AWS%20Cloud%20Practitioner%20Essentials/AWS%20Cloud%20Practitioner%20Essentials.pdf" width="600" height="500" type="application/pdf">
