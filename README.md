@@ -15,6 +15,7 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Module 10 - Monitoring, Compliance, and Governance in the AWS Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2010%20-%20Monitoring%2C%20Compliance%2C%20and%20Governance%20in%20the%20AWS%20Cloud.md)
    * [Module 11 - Pricing and Support](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2011%20-%20Pricing%20and%20Support.md)
    * [Module 12 - Migrating to the AWS Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2012%20-%20Migrating%20to%20the%20AWS%20Cloud.md)
+   * [Module 13 - Well Architected Solutions](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2013%20-%20Well%20Architected%20Solutions.md)
 * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course)
    * [GenAI - RAG System Course](./Courses/GenAI%20-%20RAG%20System%20Course/GenAI%20-%20RAG%20System%20Course.md)
 * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents)
