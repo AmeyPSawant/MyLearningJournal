@@ -3,7 +3,7 @@
 Welcome to my course repository! Below is a list of all the courses I am studying:
 
 * [AWS Cloud Practitioner Essentials](./Courses/AWS%20Cloud%20Practitioner%20Essentials)
-   * [Certificate Link](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Certificate%20Link.md)
+   * [Certificate Link](https://AmeyPSawant.github.io/Certificates/AWS%20Cloud%20Practitioner%20Essentials/AWS%20Cloud%20Practitioner%20Essentials.pdf)
    * [Module 01 - Introduction to the cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2001%20-%20Introduction%20to%20the%20cloud.md)
    * [Module 02 - Compute in the Cloud](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2002%20-%20Compute%20in%20the%20Cloud.md)
    * [Module 03 - Exploring Compute Services](./Courses/AWS%20Cloud%20Practitioner%20Essentials/Module%2003%20-%20Exploring%20Compute%20Services.md)
