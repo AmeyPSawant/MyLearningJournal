@@ -1,1 +1,1 @@
-https://github.com/AmeyPSawant/Certificates/blob/main/AWS%20Cloud%20Practitioner%20Essentials/AWS%20Cloud%20Practitioner%20Essentials.pdf
+https://github.com/AmeyPSawant/Certificates/raw/main/AWS%20Cloud%20Practitioner%20Essentials/AWS%20Cloud%20Practitioner%20Essentials.pdf
