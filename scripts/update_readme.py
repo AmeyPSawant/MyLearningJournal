@@ -46,7 +46,8 @@ def generate_course_links():
                             if content:
                                 # Use the content as the link URL
                                 file_display_name = file_name.replace(".txt", "")
-                                course_links.append(f"   * [{file_display_name}]({content})")
+                                course_links.append(f"   * <a href=\"{content}\" target=\"_blank\">{file_display_name}</a>")
+
                             else:
                                 # If file is empty, just show the filename without a link
                                 file_display_name = file_name.replace(".txt", "")
