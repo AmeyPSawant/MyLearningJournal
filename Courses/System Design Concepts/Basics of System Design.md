@@ -6,7 +6,7 @@
 4. [Proxy/Reverse Proxy](#proxy-reverse-proxy)
 5. [Latency](#latency)
 6. [HTTP/HTTPS](#http-https)
-7. [APIs](#apis)
+7. [APIs](#apis-application-programming-interfaces)
 8. [Rest API](#rest-api)
 9. [GraphQL](#graphql)
 10. [Databases](#databases)
@@ -67,15 +67,54 @@ A reverse proxy server (__on the server side__) takes the request from the clien
 Latency is the round trip delay caused due to the distance between the server and client.  
 It is directly proportional to the distance between the server and client.  
 High latency can make applications feel slow and unresponsive.
+One way to reduce latency is to deploy servers accross multiple data centers worldwide.  
 
 ## HTTP/HTTPS
-## APIs
+The client and server communicate using a set of rules called HTTP (_Hyper Text Transfer Protocol_) or a secured version called HTTPS (_Hyper Text Transfer Protocol Secure_).  
+The request contians a header containing details like the request type, browser type and cookies.  
+It sometimes also contains the body which carries additional data like form inputs.  
+The server then processes this request and sends a HTTP Response either with the requested data or an error message.  
+HTTP has a major security flaw, it sends data in plain text.  
+HTTPS encrypts all data using SSL or TLS protocol.  
+
+<img src ="http.png" height="300px"></img>
+
+## APIs (_Application Programming Interfaces_)
+An API act as a middleman without having to worry about the low level details.  
+The client sends a request to the API which sends it to the server for further processing and returns a response in a structured format usually a JSON or XML.  
+There are two styles of API most widely used are REST and GraphQL.  
+
 ## Rest API
+REST defines how client and server communicate over HTTP in a structured way.
+REST is stateless, i.e. every request is independent.  
+REST requests are easy to cache.
+It uses standard HTTP Methods like GET, POST, PUT, DELETE.
+REST endpoints often retrieve more data than needed, leading to inefficient network usage.
+
 ## GraphQL
+In GraphQL the server responds only with the data for the requested fields.  
+However, GraphQL requires more processing on the server side and isn't easy ot cache as REST.
+
 ## Databases
+Database is the backbone of any modern application.  
+It ensures that the data is stored, retrieved and managed efficiently while keeping it secure, consistent and durable.
+
 ## SQL vs NoSQL
+__SQL Databases__ store data in tables with a __strict predefined schema__ and they follow __ACID properties__.  
+They are __ideal for__ applications that require __strong consistency and structured relationships__ such as banking systems.  
+NOSQL Databases are designed for __High Scalability__ and __Performance__ with a __flexible schema__.
+They use different __data models__ such as key-value stores, docuemnt stores, graph databases and wide column stores (which are optimised for large scale distributed data).  
+
+
 ## Vertical Scaling
+Vertical Scaling is upgrading the current system by adding more CPU, RAM and Storage.
+Each server has a maximum limit till which it can be scaled up.  
+More powerful servers become exponentially more expensive.
+If this server crashes the entire system crashes.
+
 ## Horizontal Scaling
+
+
 ## Load Balancers
 ## Database Indexing
 ## Replication
