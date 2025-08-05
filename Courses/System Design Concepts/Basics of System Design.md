@@ -22,7 +22,7 @@
 20. [Denormalization](#denormalization)
 21. [CAP Theorem](#cap-theorem)
 22. [Blob Storage](#blob-storage)
-23. [CDN](#cdn)
+23. [CDN](#cdn-content-delivery-network)
 24. [WebSockets](#websockets)
 25. [Webhooks](#webhooks) 
 26. [Microservices](#microservices)
@@ -113,22 +113,88 @@ More powerful servers become exponentially more expensive.
 If this server crashes the entire system crashes.
 
 ## Horizontal Scaling
-
+Also known as scaling out is a way to add multiple servers to distribute the workload across multiple machines.  
+Horizontal scaling introduces new challenge as to which server to connect to.
 
 ## Load Balancers
+A load balancer acts a traffic manager which help determine which server to connect to when one server crashes.
+A load balancer decides which server to connect to using various load balancing algorithms such as Round-Robin, Least Connections and IP Hashing.
+
 ## Database Indexing
+Database index is a super efficient index lookup table that helps the database quickly locate the required data without scanning the entire table.
+Indexes are created on columns that are frequently queried such as keys and columns frequently used in where conditions.
+
 ## Replication
+It is the process of creating multiple replicas (mostly read replicas) for quick fetching of the data from the database.
+Whenever a write action is performed on main database it is replicated on the replicas.
+
 ## Sharding
+Sharding is the process of splitting up the database into smaller more manageable chunks.  
+This data is distributed based on a sharding key (for example - user id).  
+It is also referred to as horizontal partioning.  
+
+<img src ="sharding.png" height="300px"></img>
+
 ## Vertical Partitioning
+In Vertical Partioning, the database is split by columns to create more focused tables based on usage patterns.  
+This improves query perfomance since each request only scans relevant columns.  
+
+<img src ="vertical-partioning.png" height="300px"></img>
+
 ## Caching
+Caching is used to store frequently accessed data in memory instead of repetetively fetching it from database.  
+The most commonly used caching stratergy is cache-aside pattern.
+
+<img src ="cache-aside.png" height="300px"></img>
+
 ## Denormalization
+When the application is read heavy and the speed is critical, denormalization is used to join tables that are most frequently accessed in order to improve read performance and faster queries.
+The downside to this it leads to increased storage.
+
 ## CAP Theorem
+A distributed system cannot achieve all three states of Consistency, Availability and Partition Tolerance.  
+We must choose between Consistency and Partiotion Tolerance or Availability and Partition Tolerance.  
+
+<img src ="cap.png" height="300px"></img>
+
 ## Blob Storage
-## CDN
+Blob storage such as Amazon S3 is used to store unstructured large data such as images, videos, etc.
+Advantages of blob storage are scalability, pay as you go model, automatic replication, easy access.
+
+
+## CDN (_Content Delivery Network_)
+CDN is a global network of distributed servers that work together to deliver web content to users based on their geographical location.  
+It helps in loading content faster from the closest CDN Server based on user location thus minimizing buffering.  
+
 ## WebSockets
+Websockets allow continous 2-way communication over a single persistent connection.  
+The server can push updates at ny time without waiitng for the request from the client.  
+This enables real time interactions and eliminates the need for polling.  
+
 ## Webhooks
+Webhooks allow servers to send an HTTP request to another servers when a specific event occurs.  
+The receiver (server) registers a webhook URL with the provider, when an event occurs the provider sends an HTTP post request to the WebHook URL with event details.
+
 ## Microservices
+Monolithic applications at large scale become hard to handle, scale and deploy.
+So, the application is broken down into individual services called as microservices each having a single responsibility with individual database.
+When multiple micorservices need to communicate with each other direct API Calls aren't always effective.
+
 ## Message Queues
+Message queues enables services to communicate asynchronously, allowing request to be processed without blocking other operations.  
+There is a producer who places requests in the message queue and the consumer then processes the request.
+
 ## Rate Limiting
+To prevent overloading for the public API's that are deployed we use rate limiting.  
+Rate limiting restricts the amount of requests a client can send within a specific time frame.  
+Every user or IP Address is assigned a request quota, when the user exceeds it the server blocks the additional requests and returns an error.  
+Famous Rate Limiting algorithms are Fixed Window, Sliding Window and Token Bucket.
+
 ## API Gateways
+API Gateway is a centralized service that handles Authentication, Rate Limiting, Logging, Monitoring, Request Routing.
+It acts as a single entry point for all client requests, it routes the requests to the appropriate microservice and the response is sent back to the client through the API Gateway.
+It helps improve scalability and security.
+
 ## Idempotency
+Idempotency makes sure that repeated requests produce the same result as if the request was made only once.
+Each request is assigned with a unique request id, if it is processed then the duplicate request is ignored otherwise it is porcessed normally.
