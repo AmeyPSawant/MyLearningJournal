@@ -33,3 +33,4 @@ Similar ot what a encoder does (One Hot Encoding).
 It helps in understanding and relating an entire sentence rather than words even if the words are far apart.
 
 **How?**
+ 
