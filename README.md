@@ -27,6 +27,8 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Responsible AI - Applying AI Principles with Google Cloud](./Courses/Google%20Beginner%20-%20Introduction%20to%20Generative%20AI%20Learning%20Path/Responsible%20AI%20-%20Applying%20AI%20Principles%20with%20Google%20Cloud.md)
 * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents)
    * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents/Introduction%20to%20AI%20Agents.md)
+* [JavaScript](./Courses/JavaScript)
+   * [Async JavaScript](./Courses/JavaScript/Async%20JavaScript.md)
 * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29)
    * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
 * [System Design Concepts](./Courses/System%20Design%20Concepts)
