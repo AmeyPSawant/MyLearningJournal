@@ -29,6 +29,8 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Introduction to AI Agents](./Courses/Introduction%20to%20AI%20Agents/Introduction%20to%20AI%20Agents.md)
 * [JavaScript](./Courses/JavaScript)
    * [Async JavaScript](./Courses/JavaScript/Async%20JavaScript.md)
+* [Kaggle Google GenAI 5 day](./Courses/Kaggle%20Google%20GenAI%205%20day)
+   * [Day 1](./Courses/Kaggle%20Google%20GenAI%205%20day/Day%201.md)
 * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29)
    * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
 * [System Design Concepts](./Courses/System%20Design%20Concepts)
