@@ -95,3 +95,44 @@ DPR learns relevance with the help of positive and negative reinforcement.
 - Negative reinforcement reduces connections b/w unrelated embeddings.
 
 ## Generative Models
+
+Retrieval models lacked making sense of the retrieved information.  
+These generative models solve the problem by ustilizing completeness, coherence and adaptability.
+Generative models such as GPT, T5, BART, etc utilizes attention mechanisms to focus on the important words ignoring other irrelevant terms and predicting one word at a time.
+Generative Models breakdown into three main actions i.e. Using Attention, Predicting Next Word, Decoding the Response.
+
+### The Challenge with Generative Models
+
+- Issue with Retrieval - Retrieval Models can retrieve information but lack coherence.
+- Analogy - Needs effort ot interpret as they are not pieced together.
+- Problem - Cannot retrieve a complete understandable answer without needing to re organize information.
+
+### Breaking Down Generative Models
+
+- Using Attention - It focuses on the most important parts from the reteived information.
+- Predicting Next Word - Generates sentences by predicitng oe word at a time, making responses coherent.
+- Decoding the Response - Continues word prediction until a full meaningful answer is created.
+
+## Retrieval Augmenting Generation Architecture
+
+### Components of RAG Architecture
+
+- Retrieval Model - It searches the information database for relevant information
+- Generative Model - It structures the retreived facts into a cohesive readable response
+- Combined Functionality - Together these models ensure that response is accurate and articulated well.
+
+### RAG Pipeline in Action
+
+1. User Input
+2. Transform Question into Vector
+3. Retrieve Relevant Information
+4. Feed Information to Generative Model
+5. Generate the Answer
+6. Output to User
+
+## First Basic Project - Interactive Q&A System with RAG
+### Step 1 - Document Chunking
+### Step 2 - Generating Embeddings
+### Step 3 - Retrieve Relevant Chunks
+### Step 4 - Generate answer using GPT-3.5 Turbo
+
