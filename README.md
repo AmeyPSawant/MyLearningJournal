@@ -33,5 +33,7 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Day 1](./Courses/Kaggle%20Google%20GenAI%205%20day/Day%201.md)
 * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29)
    * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
+* [Salesforce 7 Day](./Courses/Salesforce%207%20Day)
+   * [Salesforce Platform Basics](./Courses/Salesforce%207%20Day/Salesforce%20Platform%20Basics.md)
 * [System Design Concepts](./Courses/System%20Design%20Concepts)
    * [Basics of System Design](./Courses/System%20Design%20Concepts/Basics%20of%20System%20Design.md)
