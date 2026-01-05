@@ -28,6 +28,8 @@ Along with the archtecture, with regards to integrating Generative AI, Salesforc
 2. Setup Menu: The menu gives you quick links to a collection of pages that let you do everything from managing your users to modifying security settings.
 3. Main Window: We’re showing you the Setup home page, but this is where you can see whatever it is you’re trying to work on.
 
+## Power Up with AppExchange
+
 ## Glossary
 
 **Objects** are tables in the Salesforce database that store a particular kind of information.
