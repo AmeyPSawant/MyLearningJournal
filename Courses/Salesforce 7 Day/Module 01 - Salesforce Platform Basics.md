@@ -24,14 +24,14 @@ Along with the archtecture, with regards to integrating Generative AI, Salesforc
 
 ## Navigate Setup
 
-1. Object Manager: Object Manager is where you can view and customize standard and custom objects in your org.
-2. Setup Menu: The menu gives you quick links to a collection of pages that let you do everything from managing your users to modifying security settings.
-3. Main Window: We’re showing you the Setup home page, but this is where you can see whatever it is you’re trying to work on.
+1. **Object Manager:** Object Manager is where you can view and customize standard and custom objects in your org.
+2. **Setup Menu:** The menu gives you quick links to a collection of pages that let you do everything from managing your users to modifying security settings.
+3. **Main Window:** We’re showing you the Setup home page, but this is where you can see whatever it is you’re trying to work on.
 
 ## Power Up with AppExchange
 
-## Glossary
+Apps are installed using something called a package (remember when you installed the Dreamhouse app?). To find the package:
 
-**Objects** are tables in the Salesforce database that store a particular kind of information.
-**Records** are rows in object database tables.
-**Fields** are columns in object database tables.
+1. From Setup, search and select **Installed Packages** in the Quick Find box.
+2. Click the name of the package you installed. It will be the same name from the AppExchange download page.
+3. Click **View Components** to see more information about the package. The Package Details page shows you all the components, including custom fields, custom objects, and Apex classes in the package. This information helps you determine whether you have any conflicts in your own customizations.
