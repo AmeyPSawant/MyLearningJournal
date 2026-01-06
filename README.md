@@ -35,5 +35,6 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Model Context Protocol (MCP)](./Courses/Model%20Context%20Protocol%20%28MCP%29/Model%20Context%20Protocol%20%28MCP%29.md)
 * [Salesforce 7 Day](./Courses/Salesforce%207%20Day)
    * [Module 01 - Salesforce Platform Basics](./Courses/Salesforce%207%20Day/Module%2001%20-%20Salesforce%20Platform%20Basics.md)
+   * [Module 02 - Apex Basics for Admins](./Courses/Salesforce%207%20Day/Module%2002%20-%20Apex%20Basics%20for%20Admins.md)
 * [System Design Concepts](./Courses/System%20Design%20Concepts)
    * [Basics of System Design](./Courses/System%20Design%20Concepts/Basics%20of%20System%20Design.md)
