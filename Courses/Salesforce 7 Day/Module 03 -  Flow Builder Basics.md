@@ -31,3 +31,32 @@ Flows look like flowcharts: They’re made up of boxes and connecting arrows tha
 Flows are ideal for automating processes that involve conditional logic and actions.  
 They are easier to create and maintain compared to custom code, making them a cost-effective solution for many use cases.  
 However, some scenarios may still require custom code, such as generating PDFs or handling complex requirements.
+
+## Meet Flow Builder
+
+### Launching Automation App
+
+In the App Launcher > type Automation > Open up the Automation App.  
+When a New Automation is created you see 4 categories as below  
+<img src="New_Automation.png" alt="New Automation" width="500px">
+
+### Flow Building Blocks
+
+Flows use three building blocks: elements, connectors, and resources.
+
+- **Elements** are nodes on the canvas that make things happen. To add an element to the canvas, click Add element.
+- **Connectors** are lines on the canvas that define the path the flow takes when it runs. They tell the flow which element to execute next.
+- **Resources** are containers that don’t appear on the canvas, but are referenced by the flow’s elements. Each resource contains a value or a formula that resolves to a value.  
+  For example, your flow can search for an account’s ID, store that ID in a variable, and later use that variable to tell the flow which account to update.
+
+### Elements
+
+Each element is a step that tells the flow what to do, and each type of element does something different. Think of flow elements as three types.
+
+- **Interaction** - Interacts with _users_ (Screen, Action, Subflow)
+- **Logic** - Interacts with the _flow_ itself (Assignment, Decision, Loop, Transform, Collection Sort, Collection Filter)
+- **Data** - Interacts with _data_ (Create Records, Update Records, Get Records, Delete Records, Roll Back Records)
+
+## Learn About Flow Variables
+
+Created Text, Number and Formula Variable in the Automation.
