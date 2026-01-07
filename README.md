@@ -38,5 +38,6 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
    * [Module 01 - Salesforce Platform Basics](./Courses/Salesforce%207%20Day/Module%2001%20-%20Salesforce%20Platform%20Basics.md)
    * [Module 02 - Apex Basics for Admins](./Courses/Salesforce%207%20Day/Module%2002%20-%20Apex%20Basics%20for%20Admins.md)
    * [Module 03 -  Flow Builder Basics](./Courses/Salesforce%207%20Day/Module%2003%20-%20%20Flow%20Builder%20Basics.md)
+   * [Module 04 - Approve Records with Approval Processes](./Courses/Salesforce%207%20Day/Module%2004%20-%20Approve%20Records%20with%20Approval%20Processes.md)
 * [System Design Concepts](./Courses/System%20Design%20Concepts)
    * [Basics of System Design](./Courses/System%20Design%20Concepts/Basics%20of%20System%20Design.md)
