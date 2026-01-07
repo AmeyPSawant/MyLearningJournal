@@ -8,3 +8,6 @@ An approval process automates how Salesforce records are approved. In an approva
 - The actions to take based on what happens during the approval process.
 
 ## Build an Approval Process
+
+Set up email templates, custom fields, and an approval process for discounted opportunities.  
+Automate submissions with Flow Builder or a button, ensuring smooth approval workflows.

@@ -27,3 +27,39 @@ The primary tool for creating flows. You learn more about this tool in the next 
 ## Flownatic
 
 Someone who enjoys creating flows. Yes, there’s a whole community of people who really do love flows.
+
+## Digital Experience Layer
+
+Features FlexCards for contextual data and OmniScripts for guided processes, built on Lightning Web Components for better performance.
+
+## Service Management Layer
+
+Includes Data Mappers and Integration Procedures for handling data and business logic.
+
+## Developer Experience Layer
+
+Offers tools like IDX Build Tool and IDX Workbench for managing and migrating OmniStudio components.
+
+## FlexCards
+
+Provide at-a-glance contextual information and quick access to tasks. For example, call center agents can view customer details and launch guided processes during calls.
+
+## OmniScripts
+
+Offer guided paths for completing business processes, enabling seamless customer experiences. They can integrate data from various systems and are deployable across devices and channels.
+
+## Data Mapper Turbo Extract
+
+Get data from a single Salesforce object.
+
+## Data Mapper Extract
+
+Get data from one or more Salesforce objects.
+
+## Data Mapper Load
+
+Save data to one or more Salesforce objects.
+
+## Data Mapper Transform
+
+Manipulate any data that comes from inside or outside Salesforce.
