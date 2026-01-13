@@ -6,13 +6,13 @@
 
 OmniStudio simplifies digital transformation with drag-and-drop tools for creating guided experiences without code.  
 It integrates Salesforce automation capabilities and supports omnichannel service across devices.  
-OmniStudio's layers include [Digital Experience](./Glossary.md#digital-experience-layer), [Service Management](./Glossary.md#service-management-layer), and [Developer Experience](./Glossary.md#developer-experience-layer).
+OmniStudio's layers include [Digital Experience](../Glossary.md#digital-experience-layer), [Service Management](../Glossary.md#service-management-layer), and [Developer Experience](../Glossary.md#developer-experience-layer).
 
 ## Explore the Digital Experience Layer
 
 ### Digital Experience Components and Capabilities
 
-The Digital Experience layer in OmniStudio enhances user interactions with two main UI components: [FlexCards](./Glossary.md#flexcards) and [OmniScripts](./Glossary.md#omniscripts).  
+The Digital Experience layer in OmniStudio enhances user interactions with two main UI components: [FlexCards](../Glossary.md#flexcards) and [OmniScripts](../Glossary.md#omniscripts).  
 These components, built on Salesforce Lightning Web Components (LWC), improve UI performance and create engaging user experiences.
 
 ### Salesforce Lightning Web Components
@@ -31,6 +31,6 @@ Key components include OmniStudio Data Mappers for data retrieval and transforma
 ### Service Management Components and Capabilities
 
 Data Mappers are tools for reading, transforming, and writing Salesforce data.  
-There are four types: [Turbo Extract](./Glossary.md#data-mapper-turbo-extract), [Extract](./Glossary.md#data-mapper-extract), [Load](./Glossary.md#data-mapper-load), and [Transform](./Glossary.md#data-mapper-transform), each suited for specific data operations.  
+There are four types: [Turbo Extract](../Glossary.md#data-mapper-turbo-extract), [Extract](../Glossary.md#data-mapper-extract), [Load](../Glossary.md#data-mapper-load), and [Transform](../Glossary.md#data-mapper-transform), each suited for specific data operations.  
 Integration Procedures _handle data retrieval_, saving, and manipulation behind the scenes, offering _fast processing_ and _minimizing server-client interactions_.  
 These components enhance development speed and reduce maintenance costs.

@@ -20,7 +20,7 @@ If business process should start automatically and run behind the scenes -
 
 ## Go with the Flow
 
-Refer [Glossary](./Glossary.md) for the meanings of [Salesforce Flow](./Glossary.md#salesforce-flow), [Flow](./Glossary.md#flow), [Flow Builder](./Glossary.md#flow-builder), [Flonatic](./Glossary.md#flownatic).
+Refer [Glossary](../Glossary.md) for the meanings of [Salesforce Flow](../Glossary.md#salesforce-flow), [Flow](../Glossary.md#flow), [Flow Builder](../Glossary.md#flow-builder), [Flonatic](../Glossary.md#flownatic).
 
 ### Flows Are Friends
 
@@ -38,7 +38,7 @@ However, some scenarios may still require custom code, such as generating PDFs o
 
 In the App Launcher > type Automation > Open up the Automation App.  
 When a New Automation is created you see 4 categories as below  
-<img src="New_Automation.png" alt="New Automation" width="500px">
+<img src="../New_Automation.png" alt="New Automation" width="500px">
 
 ### Flow Building Blocks
 
