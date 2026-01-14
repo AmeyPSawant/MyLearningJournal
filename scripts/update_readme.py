@@ -34,7 +34,8 @@ def generate_course_links():
                 course_dir_url = f"./{encoded_dir_path}"
                 
                 # Add the course name as main list item with link to directory
-                course_links.append(f"* [{course_name}]({course_dir_url})")
+                # Add folder emoji before course name
+                course_links.append(f"* [📁 {course_name}]({course_dir_url})")
                 
                 # First, add files in the root of the course directory
                 for file_name in sorted(files):
@@ -46,8 +47,7 @@ def generate_course_links():
                         encoded_path = quote(relative_path)
                         relative_url = f"./{encoded_path}"
                         file_display_name = file_name.replace(".md", "")
-                        course_links.append(f"   • {file_display_name}")
-                        course_links[-1] = f"   • [{file_display_name}]({relative_url})"
+                        course_links.append(f"  * [{file_display_name}]({relative_url})")
                     
                     elif file_name.endswith(".txt"):
                         # For .txt files, read the content and use it as a link
@@ -57,14 +57,14 @@ def generate_course_links():
                                 
                             if content:
                                 file_display_name = file_name.replace(".txt", "")
-                                course_links.append(f"   • <a href=\"{content}\" target=\"_blank\">{file_display_name}</a>")
+                                course_links.append(f"  * <a href=\"{content}\" target=\"_blank\">{file_display_name}</a>")
                             else:
                                 file_display_name = file_name.replace(".txt", "")
-                                course_links.append(f"   • {file_display_name}")
+                                course_links.append(f"  * {file_display_name}")
                                 
                         except Exception as e:
                             file_display_name = file_name.replace(".txt", "")
-                            course_links.append(f"   • {file_display_name}")
+                            course_links.append(f"  * {file_display_name}")
                 
                 # Then, add subdirectories
                 for subdir_name in sorted(subdirs):
@@ -79,13 +79,15 @@ def generate_course_links():
                         relative_path = os.path.join(COURSES_DIR, course_name, subdir_name, "README.md").replace("\\", "/")
                         encoded_path = quote(relative_path)
                         relative_url = f"./{encoded_path}"
-                        course_links.append(f"   - [{subdir_name}]({relative_url})")
+                        # Add folder emoji before subfolder name
+                        course_links.append(f"  * [📁 {subdir_name}]({relative_url})")
                     else:
                         # Link to the subdirectory
                         subdir_relative_path = os.path.join(COURSES_DIR, course_name, subdir_name).replace("\\", "/")
                         encoded_subdir_path = quote(subdir_relative_path)
                         subdir_url = f"./{encoded_subdir_path}"
-                        course_links.append(f"   - [{subdir_name}]({subdir_url})")
+                        # Add folder emoji before subfolder name
+                        course_links.append(f"  * [📁 {subdir_name}]({subdir_url})")
                     
                     # Get files in the subdirectory
                     subdir_files = [f for f in os.listdir(subdir_path) 
@@ -102,7 +104,8 @@ def generate_course_links():
                             encoded_path = quote(relative_path)
                             relative_url = f"./{encoded_path}"
                             file_display_name = file_name.replace(".md", "")
-                            course_links.append(f"      • [{file_display_name}]({relative_url})")
+                            # Files don't get emoji, just plain links
+                            course_links.append(f"    * [{file_display_name}]({relative_url})")
                         
                         elif file_name.endswith(".txt"):
                             try:
@@ -111,14 +114,14 @@ def generate_course_links():
                                     
                                 if content:
                                     file_display_name = file_name.replace(".txt", "")
-                                    course_links.append(f"      • <a href=\"{content}\" target=\"_blank\">{file_display_name}</a>")
+                                    course_links.append(f"    * <a href=\"{content}\" target=\"_blank\">{file_display_name}</a>")
                                 else:
                                     file_display_name = file_name.replace(".txt", "")
-                                    course_links.append(f"      • {file_display_name}")
+                                    course_links.append(f"    * {file_display_name}")
                                     
                             except Exception as e:
                                 file_display_name = file_name.replace(".txt", "")
-                                course_links.append(f"      • {file_display_name}")
+                                course_links.append(f"    * {file_display_name}")
     
     return course_links
 
