@@ -21,7 +21,7 @@ def generate_course_links():
             
             for item in items:
                 item_path = os.path.join(course_path, item)
-                if os.path.isfile(item_path) and item.endswith((".md", ".txt")):
+                if os.path.isfile(item_path) and item.endswith((".md", ".txt")) and item != "README.md":
                     files.append(item)
                 elif os.path.isdir(item_path):
                     subdirs.append(item)
