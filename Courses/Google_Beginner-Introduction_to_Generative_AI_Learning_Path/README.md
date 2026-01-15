@@ -1,0 +1,3 @@
+# Google_Beginner-Introduction_to_Generative_AI_Learning_Path
+ECHO is off.
+Description for Google_Beginner-Introduction_to_Generative_AI_Learning_Path goes here.

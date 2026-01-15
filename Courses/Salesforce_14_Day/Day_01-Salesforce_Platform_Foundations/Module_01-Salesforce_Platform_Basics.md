@@ -1,5 +1,7 @@
 # Salesforce Platform Basics
 
+## Link to the module
+
 ## Unlock Business Success with Salesforce Data Platform
 
 ### Installing Custom (Dreamhouse) App (package) and Modifying it
@@ -19,7 +21,7 @@ Ops can use it for Asset and facilities management, Merger and acquisition enabl
 
 ## Understand the Salesforce Architecture
 
-<img src="Salesforce_Architecture.png" alt="Salesforce Architecture" width="500px">  
+<img src="../Salesforce_Architecture.png" alt="Salesforce Architecture" width="500px">  
 Along with the archtecture, with regards to integrating Generative AI, Salesforce created _The Einstein Trust Layer_ that protects generative AI data.
 
 ## Navigate Setup
