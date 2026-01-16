@@ -38,7 +38,7 @@ However, some scenarios may still require custom code, such as generating PDFs o
 
 In the App Launcher > type Automation > Open up the Automation App.  
 When a New Automation is created you see 4 categories as below  
-<img src="../New_Automation.png" alt="New Automation" width="500px">
+<img src="../assets/New_Automation.png" alt="New Automation" width="500px">
 
 ### Flow Building Blocks
 

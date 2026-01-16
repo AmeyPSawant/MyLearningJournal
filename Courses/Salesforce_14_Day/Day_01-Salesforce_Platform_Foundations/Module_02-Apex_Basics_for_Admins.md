@@ -38,7 +38,7 @@ System.debug('Item 0: ' + groceries[0]);
 ```
 
 Output:  
-<img src="../Use_Collections_Output.png" alt="Use Collections Output" width="500px">
+<img src="../assets/Use_Collections_Output.png" alt="Use Collections Output" width="500px">
 
 ## Control Data Flow
 

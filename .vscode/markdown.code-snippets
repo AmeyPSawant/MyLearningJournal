@@ -1,0 +1,31 @@
+{
+  "Course README Template": {
+    "prefix": "readme-template",
+    "body": [
+      "# ${1:Course Name}",
+      "",
+      "## Overview",
+      "${2:Brief description of what this course covers - 2-3 sentences}",
+      "",
+      "## Platform",
+      "**Provider:** ${3:AWS, Coursera, Udemy, Google Cloud Skills Boost}",
+      "**Course Type:** ${4:Certification Prep, Hands-on Lab, Learning Path}",
+      "",
+      "## What You'll Learn",
+      "- ${5:Key topic 1}",
+      "- ${6:Key topic 2}",
+      "- ${7:Key topic 3}",
+      "- ${8:Key topic 4}",
+      "",
+      "## Resources",
+      "- **Course Link:** ${9:URL to course page}",
+      "- **Certificate:** ${10:Link to certificate if completed}",
+      "- **Official Docs:** ${11:Link to related documentation}",
+      "",
+      "## Notes",
+      "${12:Any additional context, prerequisites, or personal observations about the course}",
+      ""
+    ],
+    "description": "Template for course README files in learning journal"
+  }  
+}

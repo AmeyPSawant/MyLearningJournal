@@ -45,11 +45,11 @@ For example - The passport control officers
 
 ## Security Group v/s Network ACL
 
-<img src="SG_vs_Network_ACL.png" alt="SG vs Network ACL" width="500px">
+<img src="./assets/SG_vs_Network_ACL.png" alt="SG vs Network ACL" width="500px">
 
 ## Steps for creating the following Architecture
 
-<img src="Network_Architecture.png" alt="Network Architecture" width="500px" style="background:#FFF">
+<img src="./assets/Network_Architecture.png" alt="Network Architecture" width="500px" style="background:#FFF">
 
 ### 1. Create a VPC
 
