@@ -1,10 +1,10 @@
-# Salesforce 14-Day Automation Learning Path
+# Google Generative AI Paths
 
 ## Overview
 
 ## Course Structure
 
-- [Day 01 – Salesforce Platform Foundations](./Day_01-Salesforce_Platform_Foundations/)
+- [Day 01 – Salesforce Platform Foundations](./Day01-Salesforce_Platform_Foundations/)
 - [Day 02 – Introduction to Salesforce Automation](./Day_02-Introduction_to_Salesforce_Automation/)
 - [Day 04 – Advanced Flow & Orchestration](./Day_04-Advanced_Flow_&_Orchestration/)
 - [Day 06 – Integration Concepts & External APIs](./Day_06-Integration_Concepts_&_External_APIs/)

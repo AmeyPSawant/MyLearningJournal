@@ -1,4 +1,4 @@
-# Google_Beginner-Introduction_to_Generative_AI_Learning_Path
+# Beginner - Introduction_to_Generative_AI_Path
 
 ## Overview
 
