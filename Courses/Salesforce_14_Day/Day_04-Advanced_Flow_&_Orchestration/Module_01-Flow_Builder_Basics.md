@@ -60,3 +60,31 @@ Each element is a step that tells the flow what to do, and each type of element 
 ## Learn About Flow Variables
 
 Created Text, Number and Formula Variable in the Automation.
+
+### Challenge: Create Flow Resources
+
+#### Skills Demonstrated
+
+- **Screen Flows**
+- **Flow Variables**
+- **Boolean Data Types**
+- **Number Data Types**
+- **Flow Formulas**
+- **Resource Configuration**
+
+#### Challenge Completion Proof
+
+- ✅ **Screen Flow created** for resource configuration
+- ✅ **Boolean variable** created with default value set to `False`
+- ✅ **Number variable** created with zero decimal places
+- ✅ **Formula resource** configured to subtract 100 from the number variable
+- ✅ **Flow saved** with label `Variables` and correct API name
+- 📸 **Screenshots captured**: Variable definitions, formula configuration, flow details
+
+  <img src="../assets/D04_M01_C04_a.png" alt="Boolean Variable" width="500px">
+  <br>
+  <br>
+  <img src="../assets/D04_M01_C04_b.png" alt="Number Variable" width="500px">
+  <br>
+  <br>
+  <img src="../assets/D04_M01_C04_c.png" alt="Number Formula" width="500px">
