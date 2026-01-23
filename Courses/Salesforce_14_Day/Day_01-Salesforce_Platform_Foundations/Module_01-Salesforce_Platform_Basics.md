@@ -1,7 +1,5 @@
 # Salesforce Platform Basics
 
-## Link to the module
-
 ## Unlock Business Success with Salesforce Data Platform
 
 ### Installing Custom (Dreamhouse) App (package) and Modifying it
@@ -9,6 +7,24 @@
 Opened _Playground Starter_  
 Went to _Install a Package_, installed the "Dreamhouse" package.  
 Created two custom fields for _Contact_ Object using _Setup for Current App_.
+
+### Challenge: Add a Custom Field to the Contact Object
+
+#### Skills Demonstrated
+- **Custom Field Creation**
+- **Contact Object Configuration**
+- **Currency Data Types**
+- **Schema Customization**
+- **Salesforce Data Modeling**
+
+#### Challenge Completion Proof
+- ✅ **Custom currency field created** on the Contact object  
+- ✅ **Field labeled and named correctly** (`Loan Amount`, `Loan_Amount`)  
+- ✅ **Field available for data entry** to support broker qualification workflows  
+- 📸 **Screenshots captured**: Field setup, Contact object schema
+
+    <img src="../assets/D01_M01_C01.png" alt="Custom Field" width="500px">
+
 
 ## Discover Use Cases for the Platform
 
@@ -18,6 +34,9 @@ Finance employees can use it for Budget management, Contract management and Pric
 Product employees can use it for Warranty management, Preproduction testing, and Product ideas and innovation.  
 Supply Chain employees can use it for Procurement, Vendor management and Logistics.  
 Ops can use it for Asset and facilities management, Merger and acquisition enablement, and Business agility.
+
+
+
 
 ## Understand the Salesforce Architecture
 
