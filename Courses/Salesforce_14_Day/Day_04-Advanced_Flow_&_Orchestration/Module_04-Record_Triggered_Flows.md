@@ -22,6 +22,9 @@ Triggered flows consist of a trigger, criteria, and actions. Triggers can be bas
 
 These flows are ideal for automating tasks based on record changes, such as updates, notifications, or maintaining data consistency. They can run during or after the record update, asynchronously, or on a scheduled path for future actions.
 
+
+
+
 ## Build a Record-Triggered Flow
 
 ### Business Requirement
@@ -39,6 +42,30 @@ The flow creates a new Salesforce record (Contract) using values from the trigge
 ### Saving and Debugging
 
 Save the flow frequently and debug it to test different scenarios without affecting live data. Debugging involves running the flow against a sample opportunity to verify its functionality. Once successful, the flow is ready for activation.
+
+### Challenge: Create a Record-Triggered Flow
+
+#### Skills Demonstrated
+- **Record-Triggered Flows**
+- **Conditional Flow Logic**
+- **Opportunity Stage Automation**
+- **High-Value Deal Handling**
+- **Create Records Element**
+- **Task Automation**
+- **Cross-Object Field Mapping**
+
+#### Challenge Completion Proof
+- ✅ **Record-triggered flow created** on Opportunity create and update  
+- ✅ **Entry conditions configured** for Stage = *Negotiation/Review* and Amount > 100,000  
+- ✅ **Update-only execution enforced** when conditions are newly met  
+- ✅ **Flow optimized** to allow record creation  
+- ✅ **Task created automatically** for Opportunity owner  
+- ✅ **Task related to Account** and assigned with due date  
+- ✅ **Flow saved and activated** (`Review_Opportunity_with_Account_Owner`)  
+- 📸 **Screenshots captured**: Entry conditions, Create Records configuration, flow details
+
+    <img src="../assets/D04_M04_C02.png" alt="Main Flow" width="500px">
+
 
 ## Add a Scheduled Task to Your Flow
 
@@ -58,6 +85,28 @@ To configure a scheduled path, you must first ensure the Default Workflow User i
 
 After configuring the flow, you can debug it to ensure it works as intended. The unit also encourages exploring additional criteria and actions, such as automating different actions for opportunities that don’t meet specific conditions.
 
+### Challenge: Add a Scheduled Path to Your Flow
+
+#### Skills Demonstrated
+- **Scheduled Paths**
+- **Time-Based Flow Automation**
+- **Record-Triggered Flow Enhancements**
+- **Task Creation Automation**
+- **Opportunity Lifecycle Management**
+- **Cross-Object Field Mapping**
+
+#### Challenge Completion Proof
+- ✅ **Scheduled path added** to existing Opportunity record-triggered flow  
+- ✅ **Time-based logic configured** using Last Modified Date + 3 days  
+- ✅ **Delayed execution path created** for follow-up actions  
+- ✅ **Phone call task created automatically** for Opportunity owner  
+- ✅ **Task related correctly** to the Opportunity record  
+- ✅ **Flow saved and updated successfully**  
+- 📸 **Screenshots captured**: Scheduled path configuration, Create Records element
+
+    <img src="../assets/D04_M04_C02.png" alt="Main Flow" width="500px">
+
+
 ## Meet Flow Trigger Explorer
 
 ### Overview of Flow Trigger Explorer
@@ -71,3 +120,4 @@ You can access Flow Trigger Explorer from the Object Manager or the Flows page i
 ### Monitoring Flows with Time-Based Automations
 
 The Time-Based Automations page helps monitor scheduled flow actions, such as paths triggered by specific conditions. You can filter pending actions by criteria like object, scheduled date, or user, and cancel actions if needed.
+
