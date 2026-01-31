@@ -50,5 +50,6 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
     * [Module_04-Record_Triggered_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_04-Record_Triggered_Flows.md)
     * [Module_05-Autolaunched_and_Scheduled_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_05-Autolaunched_and_Scheduled_Flows.md)
     * [Module_06-Screen_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_06-Screen_Flows.md)
+    * [Module_07-Multirecord_Elements_and_Transforms_in_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_07-Multirecord_Elements_and_Transforms_in_Flows.md)
 * [📁 System_Design_Concepts](./Courses/System_Design_Concepts)
   * [Basics_of_System_Design](./Courses/System_Design_Concepts/Basics_of_System_Design.md)
