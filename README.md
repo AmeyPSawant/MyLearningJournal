@@ -51,5 +51,8 @@ Welcome to my course repository! Below is a list of all the courses I am studyin
     * [Module_05-Autolaunched_and_Scheduled_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_05-Autolaunched_and_Scheduled_Flows.md)
     * [Module_06-Screen_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_06-Screen_Flows.md)
     * [Module_07-Multirecord_Elements_and_Transforms_in_Flows](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_07-Multirecord_Elements_and_Transforms_in_Flows.md)
+    * [Module_08-Loops_in_Flow_Builder](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_08-Loops_in_Flow_Builder.md)
+    * [Module_09-Flow_Orchestration_Basics](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_09-Flow_Orchestration_Basics.md)
+    * [Module_10-Orchestrate_Complex_Processes_with_Flow_Orchestration](./Courses/Salesforce_14_Day/Day_04-Advanced_Flow_%26_Orchestration/Module_10-Orchestrate_Complex_Processes_with_Flow_Orchestration.md)
 * [📁 System_Design_Concepts](./Courses/System_Design_Concepts)
   * [Basics_of_System_Design](./Courses/System_Design_Concepts/Basics_of_System_Design.md)
